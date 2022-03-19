@@ -120,8 +120,8 @@ jQuery(function($) {
                     // Megamenu style
                     $(".megamenu-fw", this).each(function(){
                         $(".col-menu", this).each(function(){
-                            $(".title", this).off("click");
-                            $(".title", this).on("click", function(){
+                            $(".title", this).off("touchstart");
+                            $(".title", this).on("touchstart", function(){
                                 $(this).closest(".col-menu").find(".content").stop().toggleClass('active');
                                 $(this).closest(".col-menu").toggleClass("active");
                                 return false;
