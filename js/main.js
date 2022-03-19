@@ -111,7 +111,7 @@ jQuery(function($) {
                     
                     // Dropdown Fade Toggle
                     $("a.mega-menu-link", this).on('click', function (e) {
-                        e.preventDefault();
+                        // e.preventDefault();
                         var t = $(this);
                         t.toggleClass('active').next('ul').toggleClass('active');
                     });   
@@ -124,7 +124,7 @@ jQuery(function($) {
                                 $(this).closest(".col-menu").find(".content").stop().toggleClass('active');
                                 $(this).closest(".col-menu").toggleClass("active");
                                 return false;
-                                e.preventDefault();
+                                // e.preventDefault();
                                 
                             });
 
