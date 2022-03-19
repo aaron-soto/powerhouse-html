@@ -110,7 +110,8 @@ jQuery(function($) {
                 $("nav.main-menu ul.menu").each(function(){
                     
                     // Dropdown Fade Toggle
-                    $("a.mega-menu-link", this).on('click', function (e) {
+                    // $("a.mega-menu-link", this).on('click', function (e) {
+                    $("a.mega-menu-link", this).on('touchstart', function (e) {
                         e.preventDefault();
                         var t = $(this);
                         t.toggleClass('active').next('ul').toggleClass('active');
