@@ -110,9 +110,8 @@ jQuery(function($) {
                 $("nav.main-menu ul.menu").each(function(){
                     
                     // Dropdown Fade Toggle
-                    // $("a.mega-menu-link", this).on('click', function (e) {
-                    $("a.mega-menu-link", this).on('touchstart', function (e) {
-                        e.preventDefault();
+                    $("a.mega-menu-link", this).on('click', function (e) {
+                        // e.preventDefault();
                         var t = $(this);
                         t.toggleClass('active').next('ul').toggleClass('active');
                     });   
@@ -120,12 +119,12 @@ jQuery(function($) {
                     // Megamenu style
                     $(".megamenu-fw", this).each(function(){
                         $(".col-menu", this).each(function(){
-                            $(".title", this).off("touchstart");
-                            $(".title", this).on("touchstart", function(){
+                            $(".title", this).off("click");
+                            $(".title", this).on("click", function(){
                                 $(this).closest(".col-menu").find(".content").stop().toggleClass('active');
                                 $(this).closest(".col-menu").toggleClass("active");
                                 return false;
-                                e.preventDefault();
+                                // e.preventDefault();
                                 
                             });
 

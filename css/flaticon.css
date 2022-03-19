@@ -15,6 +15,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "spyagency";
+  src: url('../fonts/spyagency.ttf')format("truetype");
+}
+
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     font-family: flaticon !important;
     font-style: normal;
