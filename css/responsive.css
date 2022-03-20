@@ -84,7 +84,8 @@
     header .container{ max-width: 100%; }
     .site-header-menu .site-navigation { height: 100px; }
     .widget_info { display: none !important; }
-    nav.main-menu ul.menu li > ul.mega-submenu li a:hover { color: #f34e3a;  }
+    /* nav.main-menu ul.menu li > ul.mega-submenu li a:hover { color: #f34e3a;  } */
+    nav.main-menu ul.menu li > ul.mega-submenu li a:hover { color: #ffffff;  }
     .ttm-header-style-02 .menubar-inner, .ttm-header-style-02 .menubar-inner:after, 
     .ttm-header-style-02 .menubar-inner:before { background-color: #fff; }
 
