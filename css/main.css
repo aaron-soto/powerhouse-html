@@ -2714,7 +2714,7 @@ ul.footer-nav-menu li:not(:last-child):after {
     background-attachment: scroll;
 }
 .ttm-page-title-row-6 {
-    background: url(https://via.placeholder.com/1920x550?text=1920x550+row-bgimg-8.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/powerhouse/competition-prep.jpg');
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
