@@ -1611,6 +1611,45 @@ ul.social-icons{
     margin-top: 7px;
 }
 
+
+
+
+
+/*  ===============================================
+    TopBar
+------------------------*/
+
+
+.nav.flex-column.nav-pills > .nav-link {
+    background-color: #1d1b1b;
+    color: #fff;
+    border-radius: 0;
+    font-weight: 700;
+}
+
+.nav.flex-column.nav-pills > .nav-link.active {
+    background-color: #DE2328;
+}
+
+.nav.flex-column.nav-pills > .nav-link:not(.active):hover {
+    background-color: #474747;
+}
+
+.nav.flex-column.nav-pills > .nav-link:first-of-type {
+    margin-bottom: 10px;
+}
+
+.nav.flex-column.nav-pills > .nav-link:last-of-type {
+    margin-top: 10px;
+}
+
+.nav.flex-column.nav-pills > .nav-link:not(:last-of-type):not(:first-of-type) {
+    margin: 10px 0;
+}
+
+/* Select tab content panel */
+/* .my-tab .tab-pane{border:solid 1px red;} */
+
 /*  ===============================================
     TopBar
 ------------------------*/
@@ -3942,7 +3981,7 @@ slider
   .slide .slide_style2 .slide__content--headings .border_left{border-color: transparent;margin-bottom: 10px;}
   .slide .slide__content--headings :not(.fbox) p { width: 75%!important;}
   .slide .slide_style5 .slide__content--headings .ttm-btn {margin-top:25px;}
-  .banner_slider_2 .slide .slide__content--headings h3.highlight_round:after
+  /* .banner_slider_2 .slide .slide__content--headings h3.highlight_round:after */
 
 }
 
@@ -4149,16 +4188,3 @@ slider
     top: -30px;
     left: -30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
